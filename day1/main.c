@@ -6,7 +6,7 @@
 int main(void) {
     FILE *f = fopen("input", "r");
 
-		int result = 0;
+    int result = 0;
     char line[1024];
 
     while (fgets(line, sizeof(line), f)) {
@@ -24,10 +24,9 @@ int main(void) {
         str[2] = '\0';
 
         result += atoi(str);
-
     }
 
-		printf("result = %d\n", result);
+    printf("result = %d\n", result);
 
     return 0;
 }
