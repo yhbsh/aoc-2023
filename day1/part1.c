@@ -4,7 +4,7 @@
 #include <string.h>
 
 int main(void) {
-    FILE *f = fopen("input", "r");
+    FILE *f = fopen("input1", "r");
 
     int result = 0;
     char line[1024];
